@@ -3,4 +3,4 @@ Sample hashtag generator
 
 python code generate hashtag from sentence
 
-it uses nltk library for sentence processing
+it uses python nltk module for sentence processing
