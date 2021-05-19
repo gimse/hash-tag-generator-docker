@@ -5,8 +5,9 @@ python code generate hashtag from sentence
 
 it uses python nltk module for sentence processing
 
-## Setup
-- Install Python3
+## Setup (Locally)
+- Install Python3.
+- Clone the repo and enter the folder. 
 - ``pip3 install virtualenv``
 - ``virtualenv myenv``
 - ``source myenv/bin/activate``
