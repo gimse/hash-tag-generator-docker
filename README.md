@@ -13,3 +13,8 @@ it uses python nltk module for sentence processing
 - ``pip install -r requirements.txt``
 - ``python hash-tag/downloader.py``
 - ``python hash-tag/HashTagGenerator.py``
+
+## Setup Docker (Locally)
+- Install Docker
+- ``docker build -t hash-tag-generator-image:latest . ``
+- ``docker run hash-tag-generator-image:latest``
