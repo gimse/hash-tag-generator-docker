@@ -12,7 +12,7 @@ it uses python nltk module for sentence processing
 - ``virtualenv myenv``
 - ``source myenv/bin/activate``
 - ``pip install -r requirements.txt``
-- ``python hash-tag/downloader.py``
+- ``python3 nltk_downloader.py ``
 - ``python hash-tag/HashTagGenerator.py``
 
 ## Setup Docker (Locally)
