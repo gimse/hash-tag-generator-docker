@@ -2,9 +2,6 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
 import nltk
 
-userMessage = "This is a pretty cool day, i loved being here"
-
-
 def generateHashtag(sentence):
 
     hash_tags = set()
@@ -25,5 +22,3 @@ def generateHashtag(sentence):
             hash_tags.add('#' + word[0])
 
     return hash_tags
-
-print(generateHashtag(userMessage))
