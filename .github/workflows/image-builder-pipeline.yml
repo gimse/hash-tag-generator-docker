@@ -34,4 +34,4 @@ jobs:
                 --platform=linux/amd64,linux/arm/v7,linux/arm64 \
                 --output "type=image,push=true" \
                 --file ./Dockerfile . \
-                --tag ghcr.io/gimse/hash-tag-generator-docker/hash-tag-generator-docker:1.0.0
+                --tag ghcr.io/gimse/hash-tag-generator-docker/hash-tag-generator-docker:1.1.0
