@@ -32,4 +32,4 @@ Output: "{'#day', '#loved', '#cool', '#pretty'}"
 - Install Docker
 - ``docker build -t hash-tag-generator-image:latest . ``
 - ``docker run -p 42969:42969 hash-tag-generator-image:latest``
-- Open for exmaple: http://127.0.0.1:42969/v1/hashtags?text=I%20still%20love%20you 
+- Open for example: http://127.0.0.1:42969/v1/hashtags?text=I%20still%20love%20you 
