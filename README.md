@@ -25,8 +25,7 @@ Output: "{'#day', '#loved', '#cool', '#pretty'}"
 
 ## Setup Docker (Online)
 - Install Docker
-- Pull the newest [image](https://github.com/users/gimse/packages/container/package/hash-tag-generator-docker%2Fhash-tag-generator-docker). For example: ``docker pull ghcr.io/gimse/hash-tag-generator-docker/hash-tag-generator-docker:1.1.0``
-- ``docker run -p 42969:42969 docker pull ghcr.io/gimse/hash-tag-generator-docker/hash-tag-generator-docker:1.1.0``
+- Pull and run the newest [image](https://github.com/users/gimse/packages/container/package/hash-tag-generator-docker%2Fhash-tag-generator-docker). For example: ``docker run -p 42969:42969 ghcr.io/gimse/hash-tag-generator-docker/hash-tag-generator-docker:1.1.0``
 - Open for example: http://127.0.0.1:42969/v1/hashtags?text=I%20still%20love%20you 
 ## Setup Docker (Locally)
 - Install Docker
